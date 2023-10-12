@@ -29,10 +29,11 @@ p {
     font-weight: 300;
 }
 
-h3 {
+h3, h5{
     color: #41464b;
     text-transform: uppercase;
 }
+
 
 
 /*====================================================
@@ -60,9 +61,16 @@ h3 {
     /* text-align: center; */
 }
 
-#home-heading h3 {
+#home-heading h3{
     color: #fff;
     font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+#home-heading h5{
+    color: #fff;
+    font-size: 35px;
     font-weight: 700;
     margin: 20px 0 20px 0;
 }
@@ -505,6 +513,12 @@ ul.pricing-spec li p {
 .stats-item p {
     color: #fff;
     text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.stats-content p {
+    color: #fff;
     font-weight: 300;
     margin-top: 0;
 }
