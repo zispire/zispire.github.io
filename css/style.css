@@ -106,6 +106,7 @@ h3, h5{
     color: #fff;
 }
 
+
 .btn-white:hover,
 .btn-white:focus {
     background-color: #fff;
@@ -121,6 +122,20 @@ h3, h5{
 .btn-blue:focus {
     background-color: #34c6d3;
     color: #fff;
+}
+
+
+.btn-submit {
+    border-color: #fff;
+    background-color: #41464b;
+    color: #fff;
+}
+
+
+.btn-submit:hover,
+.btn-submit:focus {
+    background-color: #fff;
+    color: #41464b;
 }
 
 .btn-back-to-top {
