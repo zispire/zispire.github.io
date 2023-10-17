@@ -76,7 +76,7 @@ h3, h5{
 }
 #home-heading p{
     color: #fff;
-    font-size: 25;
+    font-size: 20px;
     font-weight: 500;
     margin: 20px 0 20px 0;
 }
@@ -241,6 +241,7 @@ h3, h5{
 }
 
 .service-item-desc p {
+    font-size: 18px;
     margin: 0;
     padding-left: 85px;
 }
@@ -285,6 +286,7 @@ h3, h5{
 
 #about-desc p {
     margin-bottom: 30px;
+    font-size: 18px;
 }
 
 
