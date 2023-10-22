@@ -81,6 +81,13 @@
     #home-heading h3 {
         font-size: 24px;
     }
+    #home-heading h5 {
+        font-size: 18px;
+    }
+    #home-heading p {
+        font-size: 16px;
+    }
+   
     /* Buttons */
     .btn-general {
         padding: 6px 22px 6px 22px;
