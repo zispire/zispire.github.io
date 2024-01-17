@@ -486,7 +486,7 @@ ul.pricing-spec {
 
 ul.pricing-spec li p {
     font-weight: 400;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .pricing-box-lg {
