@@ -703,3 +703,62 @@ form .form-control {
 .vesco-top-nav ul.navbar-nav>li.active>a {
     color: #34c6d3;
 }
+
+/*====================================================
+                       CHATBOT
+======================================================*/
+
+/* Container for the chatbot iframe, hidden by default */
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transform: scale(0); /* Initially scaled down */
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000; /* Ensure it is above other page elements */
+  }
+  
+  /* Button to open the chatbot */
+  .chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #34c6d3;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1001; /* Higher than chatbot container to be clickable */
+
+  }
+
+  /* Close button inside the chatbot */
+.close-btn {
+    position: absolute;
+    top: 11px;
+    right: 14px;
+    background-color: #f9f5f5;
+    color: rgb(35, 77, 80);
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: none; 
+  }
+  
+  /* Expand the chatbot container */
+  .chatbot-container.show {
+    transform: scale(1); /* Scale to original size */
+  }
+  

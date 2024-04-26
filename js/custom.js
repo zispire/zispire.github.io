@@ -150,12 +150,29 @@ $(function(){
 
 
 
+/*====================================================
+                        CHATBOT
+====================================================*/
 
-
-
-
-
-
+function toggleChatbot() {
+    var chatbot = document.getElementById('chatbot');
+    var chatbotIcon = document.getElementById('chatbotIcon');
+    var closeButton = document.querySelector('.close-btn');
+  
+    if (chatbot.style.transform === 'scale(1)') {
+      chatbot.style.transform = 'scale(0)';
+      chatbotIcon.style.display = 'block';
+      closeButton.style.display = 'none';
+    } else {
+      chatbot.style.transform = 'scale(1)';
+      chatbotIcon.style.display = 'none';
+      closeButton.style.display = 'block';
+    }
+  }
+  
+document.getElementById('chatbotIcon').addEventListener('click', toggleChatbot);
+  
+  
 
 
 
