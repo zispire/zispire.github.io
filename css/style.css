@@ -713,8 +713,8 @@ form .form-control {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 500px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
     overflow: hidden;
