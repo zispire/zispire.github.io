@@ -713,7 +713,7 @@ form .form-control {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    width: 330px;
+    width: 400px;
     height: 500px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
@@ -760,5 +760,21 @@ form .form-control {
   /* Expand the chatbot container */
   .chatbot-container.show {
     transform: scale(1); /* Scale to original size */
+  }
+  
+  /* Base styles as you defined */
+
+@media (max-width: 450px) {
+    .chatbot-container {
+      bottom: 10px;
+      left: 10px;
+      width: 300px;  /* Smaller width for smaller screens */
+      height: 400px; /* Smaller height for smaller screens */
+    }
+  
+    .chatbot-icon {
+      bottom: 10px;
+      left: 10px;
+    }
   }
   
